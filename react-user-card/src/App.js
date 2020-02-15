@@ -46,3 +46,10 @@ export default App;
 //   .catch(error => {
 //     console.log("Cannot find data", error);
 //   });
+
+// const getDogs = () => {
+//     fetch('https://dog.ceo/api/breed/labrador/images')
+//       .then(res => res.json())
+//       .then(dogs => this.setState({dogs: dogs.message}))
+//       .catch(err => console.log('noooo'));
+// };
