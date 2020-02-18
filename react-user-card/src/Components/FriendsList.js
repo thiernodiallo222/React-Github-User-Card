@@ -5,14 +5,15 @@ import './Style.css';
 export class FriendsList extends Component {
 
 constructor() {
-    super();
+    super()
+    this.state ={}
   }
 
     render() {
         return (
             <div>
-                {this.props.people.map(person =>
-                    <FriendsCard element={this.props.person} />
+            {this.props.myFollowers.map(person =>
+            <FriendsCard element={this.props.item} />
                 )}
             </div>
         )

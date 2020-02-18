@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import FriendsList from './FriendsList';
+
 import axios from 'axios';
 import './Style.css';
 
@@ -31,9 +33,9 @@ handleClick = event => {
                 <p className ="text">Company: {this.props.stuff.bio}</p>
                 <p className ="text">website: {this.props.stuff.blog}</p>
                 <p className ="text">Location: {this.props.stuff.location}</p>
-                <p className ="text">Following: {this.props.stuff.following}</p>
-                <p className="text">Followers: {this.props.stuff.followers}
-                <button> Click to display {this.props.stuff.name} 's followers</button></p> 
+                <p className ="text">Following: {this.props.stuff.following} people</p>
+                <p className="text followers-link" onClick={this.handleClick}> Followers: {this.props.stuff.followers} followers </p> 
+                {/* <FriendsList item ={this.handleClick}/> */}
             </div>
         )
     }

@@ -35,8 +35,6 @@ constructor() {
         <h1>github USER profil</h1>
     
         <CardList data={this.state.myData} />
-
-        {/* <FriendsList people = { this.state.myFollowers }/> */}
  
     </div>
     )

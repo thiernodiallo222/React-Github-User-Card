@@ -6,6 +6,7 @@ export class CardList extends React.Component {
 
 constructor() {
     super(); 
+    this.state ={}
   }
 
     render() {
