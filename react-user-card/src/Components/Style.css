@@ -1,0 +1,22 @@
+.text{
+    display: flex;
+    justify-content: left;
+}
+.card-container{
+    width: 50%;
+    background-color: whitesmoke;
+    margin-left: 25%;
+
+}
+.myPic{
+    width: 100%;
+
+}
+.text-top{
+    display: flex;
+    justify-content: center;
+}
+html{
+    /* display: flex; */
+    justify-content: center;
+}
